@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: purple;
+  color: #fff;
+  padding: 10px;
+}
+
+.banner {
+  /* background-color: #000; */
+  /* color: #fff; */
+  padding: 20px;
+  text-align: center;
+  height: 250px;
+  background-image: url("../images/yeka2.png");
+  background-size: auto;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgba(197, 226, 235, 0.8);
+}
+
+.work {
+  display: flex;
+}
+
+.content_holder {
+  display: flex;
+}
+
+.left_content {
+  padding-right: 20px;
+  margin-right: 35px;
+  border-right: 1px solid black;
+}
+
+.right_content {
+  flex-grow: 1;
+  background-color: aliceblue;
+}
+
+.project {
+  background-color: rgba(77, 116, 177, 0.8);
+  margin-bottom: 10px;
+  color: white;
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+}
+
+.project {
+  display: flex;
+  margin-bottom: 10px;
+  color: white;
+  padding: 30px;
+}
+
+.container-left {
+  margin-bottom: 10px;
+  color: rgba(77, 116, 177, 0.8);
+  padding: 30px;
+  text-emphasis-color:
+}
+
+.project1 {
+  background-color: rgba(56, 26, 190, 0.8);
+  margin-bottom: 20px;
+  color: black;
+  padding: 40px;
+}
+
+.Contact-Me {
+  background-color: rgba(56, 26, 190, 0.8);
+  margin-bottom: 20px;
+  color: black;
+  padding: 40px;
+}
+
+.resume {
+  background-color: rgba(56, 26, 190, 0.8);
+  margin-bottom: 20px;
+  color: black;
+  padding: 40px;
